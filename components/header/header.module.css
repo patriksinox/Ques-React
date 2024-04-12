@@ -1,0 +1,6 @@
+
+.heading{
+    font-family: var(--font-petrona) ,'Courier New', Courier, monospace;
+    font-size: clamp(4rem, 3.824vw + 2.776rem, 8rem);
+    text-align: center;
+}

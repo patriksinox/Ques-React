@@ -1,0 +1,43 @@
+.sectionWrap{
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    min-height: 70vh;
+}
+.innerContent{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.searchWrap{
+ display: flex;
+ justify-content: center;
+}
+.input{
+    padding: 1rem;
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    border: 2px solid var(--zlata);
+    border-radius: 5px;
+    width: 50%;
+    min-width: 300px;
+}
+.input[type="text"]:focus{
+      outline:none;
+}
+.noResults{
+    font-size: 3rem;
+    text-align: center;
+    color: red; 
+    margin-top: 5rem;
+    min-height: 65vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .innerContent {
+        grid-template-columns: 1fr;
+    }
+   
+  }

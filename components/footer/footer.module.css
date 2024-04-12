@@ -1,0 +1,35 @@
+.footer{
+    background-color: var(--cierna);
+    color: var(--biela);
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    border-top: 1px solid var(--siva)
+}
+.innerFooter{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 0 1rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.link a:hover{
+    color: var(--zlata)
+}
+.link svg{
+    fill: var(--zlata)
+}
+
+@media screen and (max-width: 400px){
+.innerFooter{
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+}
