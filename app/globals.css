@@ -18,7 +18,9 @@ html{
 h1, h2,h3,h4,h5,h6{
   font-family: var(--font-petrona) ,'Courier New', Courier, monospace;
 }
-
+body{
+  margin-bottom: 10rem;
+}
 html::-webkit-scrollbar{
   scrollbar-width: thin;
   scrollbar-color: white;

@@ -7,6 +7,7 @@ function Comment({ commentId }) {
   const [comment, setComment] = useState(null);
 
   useEffect(() => {
+    //Fetchnutie commentu podľa ID ktoré ide z [post] stránky
     const fetchComment = async () => {
       const response = await fetch(
         `https://hacker-news.firebaseio.com/v0/item/${commentId}.json`

@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 import Timer from "@/utils/timer";
 
 const Post = ({ by, descendants, id, score, time, title, url }) => {
+  //ID a URL sem tam hádzalo undefined pri renderovaní
   const idSafe = id === undefined ? "/" : id;
   const urlSafe = url === undefined ? "/" : url;
   return (

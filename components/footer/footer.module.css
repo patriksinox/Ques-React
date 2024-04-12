@@ -3,7 +3,10 @@
     color: var(--biela);
     padding: 1.5rem 0;
     font-size: 1.6rem;
-    border-top: 1px solid var(--siva)
+    border-top: 1px solid var(--siva);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .innerFooter{
     margin: 0 auto;
